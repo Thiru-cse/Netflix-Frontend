@@ -1,3 +1,4 @@
+@import "../../app.scss";
 .register {
   width: 100vw;
   height: 100vh;
@@ -21,16 +22,6 @@
         height: 40px;
       }
 
-      .loginB {
-        background-color: red;
-        border: none;
-        color: white;
-        border-radius: 5px;
-        padding: 5px 15px;
-        font-size: 16px;
-        font-weight: 500;
-        cursor: pointer;
-      }
     }
   }
 
@@ -81,8 +72,11 @@
           background-color: red;
           border: none;
           color: white;
-          font-size: 22px;
+          font-size: 20px;
           cursor: pointer;
+      }
+      @include mobile {
+        font-size: 5px;
       }
       
     }

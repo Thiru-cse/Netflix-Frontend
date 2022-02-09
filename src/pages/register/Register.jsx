@@ -46,13 +46,13 @@ export default function Register() {
         {!email ? (
           <>
           <div className="input">
-            <input type="email" placeholder="email address" ref={emailRef} />
+            <input type="email" placeholder="E-Mail Address" ref={emailRef} />
             <button className="registerButton" onClick={handleStart}>
               Get Started
             </button>
           </div>
             <Link to="/login">
-              <p style={{color: "white", textDecoration: "none", margin: "20px"}}>Already have an account? SignIn</p>
+              <p style={{color: "white", textDecoration: "none", margin: "20px", fontSize: "1rem"}}>Already have an account? SignIn</p>
           </Link>
           </>
         ) : (

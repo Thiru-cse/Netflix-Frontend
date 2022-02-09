@@ -29,7 +29,7 @@ export default function Login() {
           <h1>Sign In</h1>
           <input
             type="email"
-            placeholder="Email or phone number"
+            placeholder="Enter Your Email"
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
@@ -40,13 +40,13 @@ export default function Login() {
           <button className="loginButton" onClick={handleLogin}>
             Sign In
           </button>
-          <span style={{ textDecoration: "none"}}>
-            New to Netflix? <b><Link to="/register">Sign up now.</Link></b>
-          </span>
           <small>
             This page is protected by Google reCAPTCHA to ensure you're not a
             bot. <b>Learn more</b>.
           </small>
+          <span style={{ textDecoration: "none"}}>
+            New to Netflix? <b><Link to="/register">Sign up now.</Link></b>
+          </span>
         </form>
       </div>
     </div>
