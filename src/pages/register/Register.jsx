@@ -22,7 +22,7 @@ export default function Register() {
     setPassword(passwordRef.current.value);
     setUsername(usernameRef.current.value);
     try {
-      await axios.post("http://localhost:8800/api/auth/register", { email,username, password });
+      await axios.post("https://netflix-thiru.herokuapp.com/api/auth/register", { email,username, password });
       history.push("/login");
     } catch (err) {}
   };
