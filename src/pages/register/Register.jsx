@@ -51,8 +51,8 @@ export default function Register() {
               Get Started
             </button>
           </div>
-            <Link to="/login">
-              <p style={{color: "white", textDecoration: "none", margin: "20px", fontSize: "1rem"}}>Already have an account? SignIn</p>
+            <Link to="/login" style={{ textDecoration: "none" }}>
+              <p style={{color: "#ffffff", textDecoration: "none", margin: "20px", fontSize: ".9rem", fontWeight: "bold" }}>Already have an account? <span style={{ color: "#1f3ff8"}} > Sign In</span></p>
           </Link>
           </>
         ) : (
