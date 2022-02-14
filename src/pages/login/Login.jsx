@@ -45,7 +45,7 @@ export default function Login() {
             bot. <b>Learn more</b>.
           </small>
           <span style={{ textDecoration: "none"}}>
-            New to Netflix? <b><Link to="/register">Sign up now.</Link></b>
+            New to Netflix? <b><Link style={{ color: "red" }} to="/register">Sign up now.</Link></b>
           </span>
         </form>
       </div>
