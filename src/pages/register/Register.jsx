@@ -52,7 +52,7 @@ export default function Register() {
             </button>
           </div>
             <Link to="/login" style={{ textDecoration: "none" }}>
-              <p style={{color: "#ffffff", textDecoration: "none", margin: "20px", fontSize: ".9rem", fontWeight: "bold" }}>Already have an account? <span style={{ color: "#1f3ff8"}} > Sign In</span></p>
+              <p style={{color: "#ffffff", textDecoration: "none", margin: "20px", fontSize: ".9rem", fontWeight: "bold" }}>Already have an account? <span style={{ color: "#ff0000"}} > Sign In</span></p>
           </Link>
           </>
         ) : (
